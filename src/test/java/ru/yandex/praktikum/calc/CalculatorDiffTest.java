@@ -8,8 +8,7 @@ import static org.junit.Assert.*;
 
 @RunWith(Parameterized.class)
 public class CalculatorDiffTest extends CalculatorTest {
-
-
+//test merge request
     public CalculatorDiffTest(int firstNumber, int secondNumber, int expectedResult) {
         super(firstNumber, secondNumber, expectedResult);
     }
